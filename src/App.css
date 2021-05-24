@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.container {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 20% auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-campo-busca {
+    background-color: #FFFFFF;
+    border: 1px solid #3B4252;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.search-campo-busca::-webkit-input-placeholder {
+    color: #8190A5;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: italic;
+    width: 290px;
+}
+
+.btn-buscar {
+    background-color: #47525E;
+    border-radius: 5px;
+    width: 118px;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #ECEFF4;
+    line-height: 50px;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 62px;
+}
+
+.lupa {
+    width: 30px;
+    height: 30px;
+}
+
+.search-devs {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #3B4252;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 50px;
+    width: 500px;
+    margin: 0% auto;
+    text-align: center;
+}
